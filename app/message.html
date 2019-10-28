@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Template Message</title>
+  </head>
+  <body>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Archivo');
+    </style>
+    <div style='background-color: #eff5ff; border:1px solid #03A9F4; border-radius:3px; max-width:700px; margin:0 auto; font-family: Archivo, sans-serif;'>
+      <div style="background-color: #0288d1; text-align: center; border-top: 5px solid #34445e">
+        <a href="http://nservinformatica.com.br/">
+          <img src="../img/Logo_Nserv.png" alt="Nserv" style="border: none; padding: 10px; max-width: 350px; width:100%;">
+        </a>
+      </div>
+      <div style="padding: 5px;">
+            <h1 style='text-align: center; color: #212121; font-weight: 300;'>Mensagem enviada pelo site</h1>
+
+            <p><span style='font-weight: bold;'>Nome completo: </span> {$name}</p>
+            <p><span style='font-weight: bold;'>E-mail: </span> {$email}</p>
+            <p><span style='font-weight: bold;'>Assunto: </span> {$subject}</p>
+            <p><span style='font-weight: bold;'>Hora e Data: </span> {$dateTime}</p>
+            <p><span style='font-weight: bold;'>Endereço de IP: </span> {$ipAddress}</p>
+            <p><span style='font-weight: bold;'>Navegador: </span> {$browser}</p>
+            <p><span style='font-weight: bold;'>Mensagem: </span> {$message}</p>
+      </div>
+
+      <div style="background-color: #34445e; padding:5px; text-align: center; border-bottom: 5px solid #0288d1; color: #FFF">
+        <p>&copy; Ncesar 2019 - All Rights Reserved</p>
+        <p>  <a style="padding:10px; color:#FFF;" href="http://nservinformatica.com.br/"> www.nservinformatica.com.br </a></p>
+        <a style="padding:10px; text-decoration: none;" href="https://www.facebook.com/"> <img src="../img/facebook.png" alt="Facebook" style="max-width: 32px; width: 100%;"> </a>
+        <a style="padding:10px; text-decoration: none;" href="https://www.youtube.com/" > <img src="../img/youtube.png" alt="Youtube" style="max-width: 32px; width: 100%;"> </a>
+        <a style="padding:10px; text-decoration: none;" href="https://www.instagram.com/"><img src="../img/instagram.png" alt="Instagram" style="max-width: 32px; width: 100%;"></a>
+        <a style="padding:10px; text-decoration: none;" href="https://twitter.com/"><img src="../img/twitter.png" alt="Twitter" style="max-width: 32px; width: 100%;;"></a>
+      </div>
+    </div>
+  </body>
+</html>
